@@ -3,7 +3,6 @@ import Header from '../components/Header/Header';
 import Carousel from '../components/Carousel/Carousel';
 
 class Home extends Component {
-<<<<<<< HEAD
     render() {
         return (
             <div>
@@ -12,15 +11,6 @@ class Home extends Component {
             </div>
         )
     }
-=======
-  render() {
-    return (
-      <div>
-        <Header />
-      </div>
-    );
-  }
->>>>>>> master
 }
 
 export default Home;
