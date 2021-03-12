@@ -39,7 +39,7 @@ class ImmigrationService extends React.Component{
                         <img src={detailsP1} alt="Details "/>
                     </div>
                     <div className="immigration-details__column-right">
-                        <img src={video} alt="Details video"/>
+                        <Link to="https://fast.wistia.net/embed/iframe/ewaqejla1m?videoFoam=true"><img src={video} alt="Details video"/></Link>
                         <img src={questions} alt="Details "/>
                         <img src={accessability} alt="Accessability" className={first} onClick={this.handleClick}/>
                         <img src={access2} alt="Accessability" className={second}/>
