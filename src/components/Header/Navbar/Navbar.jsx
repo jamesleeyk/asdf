@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.scss';
 import Logo from '../../../assets/Logo/Clio-Logo.svg';
 
 export default class Navbar extends Component {
@@ -17,8 +16,8 @@ export default class Navbar extends Component {
           <li className="nav__item">Resources</li>
         </ul>
         <div className="nav__button-div">
-          <button className="nav__loginButton">Login</button>
-          <button className="nav__signUpButton">Sign Up</button>
+          <button className="btn__secondary--active">Login</button>
+          <button className="btn__primary--active">Sign Up</button>
         </div>
       </nav>
     );

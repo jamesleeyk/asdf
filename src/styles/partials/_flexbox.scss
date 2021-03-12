@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  &__list {
+    list-style: none;
+    display: flex;
+    margin-right: 2rem;
+  }
+  &__item {
+    margin: 1rem;
+    color: $cta_blue;
+  }
+  &__loginButton {
+    margin-right: 0.5rem;
+  }
+}
+
+.carousel {
+  background-color: $background_blue;
+  display: flex;
+  &__img {
+    width: 80%;
+    max-width: 80%;
+  }
+  &__column-left {
+    width: 50%;
+    margin-left: 6rem;
+    margin-right: 4rem;
+  }
+  &__hero-text {
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: $gray_text;
+  }
+  &__title {
+    text-align: left;
+    font-size: 3.375rem;
+  }
+  &__column-right {
+    width: 50%;
+  }
+}
+.clio-helpbox {
+  z-index: 99;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.services {
+  background-color: $background_blue;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
