@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 import nathanAnderson from '../../assets/Images/nathan-anderson.png';
 import nassom from '../../assets/Images/nassom.png';
+import clioRepresentative from '../../assets/Images/clio-representative.png';
 import './Carousel.scss';
 
 export default class SimpleSlider extends Component {
@@ -35,6 +36,9 @@ export default class SimpleSlider extends Component {
                     <img src={nathanAnderson} className="carousel__img" alt="Needing Lawyer Help"/>
                 </div>
             </Slider>
+        </div>
+        <div className="clio-rep">
+            <img src={clioRepresentative} alt="Clio Representative"/>
         </div>
       </div>
     );
