@@ -25,7 +25,7 @@ export default class LawTypes extends Component {
   render() {
     const lawTypes = [
       { type: 'All types', image: allTypes },
-      { type: 'Immigration', image: immigration },
+      { type: 'Immigration', image: immigration, to: '/immigration' },
       { type: 'Bankruptcy', image: bankruptcy },
       { type: 'Business/Corporate', image: business },
       { type: 'Civil Rights', image: civil },
@@ -55,10 +55,12 @@ export default class LawTypes extends Component {
         <div className="law__card-div">
           {lawTypes.map((law) => {
             return (
-              <article className="law__card">
-                <img src={law.image} alt="" className="law__img" />
-                <h2 className="law__type">{law.type}</h2>
-              </article>
+              <Link className="law__link" to={law.to}>
+                <article className="law__card">
+                  <img src={law.image} alt="" className="law__img" />
+                  <h2 className="law__type">{law.type}</h2>
+                </article>
+              </Link>
             );
           })}
         </div>
