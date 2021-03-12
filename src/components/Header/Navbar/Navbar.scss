@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  &__list {
+    list-style: none;
+    display: flex;
+    margin-right: 2rem;
+  }
+  &__item {
+    margin: 1rem;
+  }
+  &__loginButton {
+    margin-right: 0.5rem;
+  }
+}
