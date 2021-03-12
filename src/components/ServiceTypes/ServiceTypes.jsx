@@ -4,6 +4,7 @@ import christina from '../../assets/Images/christina.png';
 import scott from '../../assets/Images/scott.png';
 
 export default class ServiceTypes extends Component {
+
     render() {
         const serviceTypes = [ 
             {
@@ -28,6 +29,9 @@ export default class ServiceTypes extends Component {
                     })
                 }    
             </div>
-        )
-    }
+          );
+        })}
+      </div>
+    );
+  }
 }

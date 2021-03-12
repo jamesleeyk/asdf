@@ -1,0 +1,21 @@
+.law {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__card-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__card {
+    width: 33.33%;
+  }
+  &__search {
+    height: 2rem;
+  }
+}

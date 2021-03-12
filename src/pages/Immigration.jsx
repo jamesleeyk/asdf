@@ -10,6 +10,7 @@ class Immigration extends Component {
             </div>
         )
     }
+
 }
 
 export default Immigration;
