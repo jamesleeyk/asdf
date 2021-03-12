@@ -3,13 +3,14 @@ import Header from '../components/Header/Header';
 import Carousel from '../components/Carousel/Carousel';
 
 class Home extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div>
+                <Header />
+                <Carousel />
+            </div>
+        )
+    }
 }
 
 export default Home;
