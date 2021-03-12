@@ -20,9 +20,9 @@ export default class ServiceTypes extends Component {
                 {
                     serviceTypes.map(service => {
                         return (
-                             <div className="service" key={service.name}>
-                                <img src={service.image} alt=""/>
-                                <Link to="/law-types" >{service.name}</Link>
+                             <div className="services__card" key={service.name}>
+                                <img className="services__img" src={service.image} alt=""/>
+                                <div className="services__btn"><Link to="/law-types" >{service.name}</Link></div>
                             </div>
                         )
                     })

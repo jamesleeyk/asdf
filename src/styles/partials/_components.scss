@@ -34,6 +34,27 @@
     font-weight: 600;
     font-size: 1rem;
   }
+  &__cta_yellow {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35px;
+    background-color: $cta-yellow;
+    border: 0;
+    outline: none;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1rem;
+    height: 68px;
+    width: 195px;
+    left: 192px;
+    top: 486px;
+    border-radius: 58px;
+  }
+  &__cta-text {
+    color: $gray_text;
+  }
 }
 .carousel {
   &__pageanation-dots {
@@ -51,5 +72,49 @@
 .slick-dots {
   display: flex;
   justify-content: end;
-  width: 50vw;
+  width: 100vw;
+  position: relative;
+  right: 50vw;
+  //   background-color: yellow;
+}
+.slick-dots li button::before {
+  color: $coral;
+  zoom: 250%;
+}
+
+.services {
+  &__card {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 425px;
+    width: 500px;
+    margin: 4rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  &__img {
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+  }
+  &__btn {
+    margin-top: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35px;
+    background-color: $cta-yellow;
+    border: 0;
+    outline: none;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1rem;
+    height: 68px;
+    width: 195px;
+    left: 192px;
+    border-radius: 58px;
+  }
 }
