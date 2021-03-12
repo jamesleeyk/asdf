@@ -1,5 +1,6 @@
 .carousel__img {
   width: 80%;
   max-width: 80%;
+  object-fit: contain;
 }
 /*# sourceMappingURL=Carousel.css.map */

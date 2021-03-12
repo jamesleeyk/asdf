@@ -20,6 +20,12 @@ class ImmigrationService extends React.Component{
         this.setState({access: true});
     }
 
+    handleRemove = (event ) => {
+        event.preventDefault();
+        // this.setState({access: !this.state.access});
+        this.setState({access: false});
+    }
+
     render () {
         // const accessFirstclass = this.state.access ? "display--Now" : "display";
         let first = "display";
@@ -40,10 +46,10 @@ class ImmigrationService extends React.Component{
                         <img src={detailsP1} alt="Details "/>
                     </div>
                     <div className="immigration-details__column-right">
-                        <Link to="https://fast.wistia.net/embed/iframe/ewaqejla1m?videoFoam=true"><img src={video} alt="Details video"/></Link>
+                        <a href="https://fast.wistia.net/embed/iframe/ewaqejla1m?videoFoam=true"><img src={video} alt="Details video"/></a>
                         <img src={questions} alt="Details "/>
                         <img src={accessability} alt="Accessability" className={first} onClick={this.handleClick}/>
-                        <img src={access2} alt="Accessability" className={second}/>
+                        <img src={access2} alt="Accessability" className={second} onClick={this.handleRemove}/>
                     </div>
                 </div>
             </div>
