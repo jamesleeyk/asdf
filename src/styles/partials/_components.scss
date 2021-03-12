@@ -1,0 +1,55 @@
+.btn {
+  &__primary--active {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1rem;
+    height: 46px;
+    width: 132px;
+    left: 1221px;
+    top: 35px;
+    border-radius: 24px;
+    background-color: #0070e0;
+    border: 0;
+    outline: none;
+    color: white;
+  }
+  &__primary--passive {
+    height: 46px;
+    width: 132px;
+    left: 1221px;
+    top: 35px;
+    border-radius: 24px;
+  }
+  &__secondary--active {
+    height: 46px;
+    width: 132px;
+    left: 1221px;
+    top: 35px;
+    border-radius: 24px;
+    background-color: white;
+    border: 0;
+    outline: none;
+    color: $gray_text;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+.carousel {
+  &__pageanation-dots {
+    display: flex;
+    justify-content: end;
+    width: 50vw;
+  }
+  &__img {
+    object-fit: cover;
+    width: 411px;
+    height: 328px;
+  }
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: end;
+  width: 50vw;
+}
