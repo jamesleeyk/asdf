@@ -13,26 +13,18 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div>
-        <h2> Single Item</h2>
+      <div className="carousel">
         <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+          <div className="carousel__slide-1">
+            <h1 className="carouse__title">Helping People</h1>
+            <h3>We help people find the legal information they need.<br />Let us help you!</h3>
+            <Link to="/main" />
           </div>
-          <div>
+          <div className="carousel__slide-2">
             <h3>2</h3>
           </div>
-          <div>
+          <div className="carousel__slide-3">
             <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
           </div>
         </Slider>
       </div>
