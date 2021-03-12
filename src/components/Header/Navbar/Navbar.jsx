@@ -3,15 +3,6 @@ import './Navbar.scss';
 import Logo from '../../../assets/Logo/Clio-Logo.svg';
 
 export default class Navbar extends Component {
-<<<<<<< HEAD
-    render() {
-        return (
-            <div>
-                <h1>Navbar</h1>
-            </div>
-        )
-    }
-=======
   render() {
     return (
       <nav className="nav">
@@ -29,5 +20,4 @@ export default class Navbar extends Component {
       </nav>
     );
   }
->>>>>>> master
 }
