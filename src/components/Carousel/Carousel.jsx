@@ -1,7 +1,11 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 // import "~slick-carousel/slick/slick.css";
 // import "~slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import nathanAnderson from '../../assets/Images/nathan-anderson.png';
+import nassom from '../../assets/Images/nassom.png';
+import './Carousel.scss';
 
 export default class SimpleSlider extends Component {
   render() {
@@ -14,19 +18,24 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="carousel">
-        <Slider {...settings}>
-          <div className="carousel__slide-1">
-            <h1 className="carouse__title">Helping People</h1>
+        <div className="carousel__column-left">
+            <h1 className="carousel__title">Helping People</h1>
             <h3>We help people find the legal information they need.<br />Let us help you!</h3>
-            <Link to="/main" />
-          </div>
-          <div className="carousel__slide-2">
-            <h3>2</h3>
-          </div>
-          <div className="carousel__slide-3">
-            <h3>3</h3>
-          </div>
-        </Slider>
+            <Link to="/main">Need Legal Advice ?</Link>
+        </div>
+        <div className="carousel__column-right">
+            <Slider {...settings}>
+                <div className="carousel__slide-1">
+                    <img src={nathanAnderson} className="carousel__img" alt="Needing Lawyer Help"/>
+                </div>
+                <div className="carousel__slide-2">
+                    <img src={nassom} className="carousel__img" alt="Needing Lawyer Help"/>
+                </div>
+                <div className="carousel__slide-3">
+                    <img src={nathanAnderson} className="carousel__img" alt="Needing Lawyer Help"/>
+                </div>
+            </Slider>
+        </div>
       </div>
     );
   }
