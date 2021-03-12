@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
+import ServiceTypes from '../components/ServiceTypes/ServiceTypes';
 import Header from '../components/Header/Header';
-import Carousel from '../components/Carousel/Carousel';
 
-class Home extends Component {
+export default class Main extends Component {
     render() {
         return (
             <div>
                 <Header />
-                <Carousel />
+                <ServiceTypes />
             </div>
         )
     }
 }
-
-export default Home;

@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  &__list {
+    list-style: none;
+    display: flex;
+    margin-right: 2rem;
+  }
+  &__item {
+    margin: 1rem;
+    color: $cta_blue;
+  }
+  &__loginButton {
+    margin-right: 0.5rem;
+  }
+}
+
+.carousel {
+  display: flex;
+  &__img {
+    width: 80%;
+    max-width: 80%;
+  }
+  &__column-left {
+    width: 50%;
+  }
+  &__column-right {
+    width: 50%;
+  }
+}
