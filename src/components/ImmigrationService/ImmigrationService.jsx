@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import detailsList from '../../assets/Images/details.png';
 import testimonial from '../../assets/Images/testimonial.png';
 import detailsP1 from '../../assets/Images/details-p1.png';
