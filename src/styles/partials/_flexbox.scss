@@ -24,6 +24,18 @@
   }
   &__column-left {
     width: 50%;
+    margin-left: 5rem;
+    margin-right: 4rem;
+  }
+  &__hero-text {
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: $gray_text;
+  }
+  &__title {
+    text-align: left;
+    font-size: 3.375rem;
   }
   &__column-right {
     width: 50%;
