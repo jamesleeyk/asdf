@@ -2,7 +2,7 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Immigration from './pages/Immigration';
 import Advice from './pages/Advice';
-import Advice from './pages/Main';
+import Main from './pages/Main';
 import Home from './pages/Home';
 
 function App() {
