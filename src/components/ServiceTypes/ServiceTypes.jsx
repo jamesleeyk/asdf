@@ -29,9 +29,6 @@ export default class ServiceTypes extends Component {
                     })
                 }    
             </div>
-          );
-        })}
-      </div>
     );
   }
 }

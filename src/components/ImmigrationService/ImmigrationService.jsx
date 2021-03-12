@@ -2,6 +2,8 @@ import React from 'react';
 import detailsList from '../../assets/Images/details.png';
 import testimonial from '../../assets/Images/testimonial.png';
 import detailsP1 from '../../assets/Images/details-p1.png';
+import video from '../../assets/Images/video.png';
+import questions from '../../assets/Images/questions.png';
 import './ImmigrationService.scss';
 
 function ImmigrationService() {
@@ -14,6 +16,10 @@ function ImmigrationService() {
             <div className="immigration-details__row">
                 <div className="immigration-details__column-left">
                     <img src={detailsP1} alt="Details "/>
+                </div>
+                <div className="immigration-details__column-right">
+                    <img src={video} alt="Details video"/>
+                    <img src={questions} alt="Details "/>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import { Switch, Route } from 'react-router-dom';
 import Immigration from './pages/Immigration';
 import Advice from './pages/Advice';
