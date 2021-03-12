@@ -12,7 +12,7 @@ export default class ServiceTypes extends Component {
             },
             {
                 name: 'Looking for a Lawyer',
-                image: scott
+                image: scott,
             },
         ]; 
         return (
