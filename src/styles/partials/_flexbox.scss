@@ -17,6 +17,7 @@
 }
 
 .carousel {
+  background-color: $background_blue;
   display: flex;
   &__img {
     width: 80%;
@@ -24,7 +25,7 @@
   }
   &__column-left {
     width: 50%;
-    margin-left: 5rem;
+    margin-left: 6rem;
     margin-right: 4rem;
   }
   &__hero-text {
@@ -40,4 +41,18 @@
   &__column-right {
     width: 50%;
   }
+}
+.clio-helpbox {
+  z-index: 99;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.services {
+  background-color: $background_blue;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 5rem;
 }

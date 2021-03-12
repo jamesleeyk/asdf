@@ -37,7 +37,7 @@ export default class SimpleSlider extends Component {
                 </div>
             </Slider>
         </div>
-        <div className="clio-rep">
+        <div className="clio-helpbox">
             <img src={clioRepresentative} alt="Clio Representative"/>
         </div>
       </div>
