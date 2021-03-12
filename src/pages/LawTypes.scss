@@ -18,4 +18,10 @@
   &__search {
     height: 2rem;
   }
+  &__link {
+    text-decoration: none;
+    &:visited {
+      color: black;
+    }
+  }
 }
