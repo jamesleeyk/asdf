@@ -21,8 +21,8 @@ export default class SimpleSlider extends Component {
       <div className="carousel">
         <div className="carousel__column-left">
             <h1 className="carousel__title">Helping People</h1>
-            <h3>We help people find the legal information they need.<br />Let us help you!</h3>
-            <Link to="/main">Need Legal Advice ?</Link>
+            <h3 className="carousel__hero-text">We help people find the legal information they need.<br />Let us help you!</h3>
+            <div className="btn__cta_yellow"><Link className="btn__cta-text" to="/main">Need Legal Advice ?</Link></div>
         </div>
         <div className="carousel__column-right">
             <Slider {...settings}>
@@ -37,7 +37,7 @@ export default class SimpleSlider extends Component {
                 </div>
             </Slider>
         </div>
-        <div className="clio-rep">
+        <div className="clio-helpbox">
             <img src={clioRepresentative} alt="Clio Representative"/>
         </div>
       </div>
