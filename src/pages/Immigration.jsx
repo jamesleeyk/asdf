@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
-
+import ImmigrationService from '../components/ImmigrationService/ImmigrationService';
 class Immigration extends Component {
     render() {
         return (
             <div>
-                <Header />
-                <h1>Immigration</h1>
+                {/* <Header /> */}
+                <ImmigrationService />
             </div>
         )
     }
+
 }
 
 export default Immigration;
